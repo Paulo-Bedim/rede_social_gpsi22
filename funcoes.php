@@ -1,7 +1,7 @@
 <?php // funcoes.php
 	$dbhost = 'localhost';
-	$dbname = 'gpsi22';
-	$dbuser = 'jmachado';
+	$dbname = 'rede_social_gpsi22';
+	$dbuser = 'pauloneto1';
 	$dbpass = 'password123';
 	$ligacao = new mysqli($dbhost, $dbuser, $dbpass, $dbname);
 	if ($ligacao->connect_error) die("Erro fatal na ligação!");
